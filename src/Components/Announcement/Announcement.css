@@ -1,0 +1,15 @@
+.announcement-box {
+    width: 300px;
+    height: 200px;
+    background-color: #5c5656;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .announcement-content {
+    margin-bottom: 20px;
+  }
+  
+  /* You can add more styling as needed */
+  
