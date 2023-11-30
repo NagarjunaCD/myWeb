@@ -5,8 +5,9 @@ import Navbar from "../../Components/Navbar/Navbar";
 const Management = () => {
     return (
         <div>
-           <Header/>
-           <Navbar/>
+            <Header/>
+            <Navbar/>
+            <h1 className='tc'>MANAGEMENT</h1>
         </div>
         
     )

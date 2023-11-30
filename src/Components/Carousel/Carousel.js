@@ -9,7 +9,7 @@ import Slide3 from './img3.jpg';
 
 const ImageSlider = () => {
   return (
-    <div className="container-fluid "> {/* Use container-fluid to cover full width */}
+    <div className="container-fluid mt-2"> {/* Use container-fluid to cover full width */}
       <Carousel interval={3000}>
         <Carousel.Item>
           <img
