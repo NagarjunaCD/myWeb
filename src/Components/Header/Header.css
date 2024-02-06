@@ -1,8 +1,58 @@
-.main{
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto+Mono&family=Rubik+Glitch+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto+Mono&family=Rubik+Doodle+Shadow&family=Rubik+Glitch+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Itim&family=Roboto+Mono&family=Rubik+Doodle+Shadow&family=Rubik+Glitch+Pop&display=swap');
+
+/* Header styles */
+.head {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    background-color:white ; /* Example background color */
+    color:#333; /* Example text color */
 }
 
-.LOGO {
-    width: auto;
-    height: 100px;
+/* Navigation styles */
+.navigation {
+    list-style: none;
+    display: flex;
+    gap: 10px; /* Adjust the gap between list items */
+}
+
+/* Individual list item styles */
+.navigation li {
+    margin-right: 10px;
+    font-family: 'Concert One'; /* Apply the font to list items */
+    font-size: 1.2em; /* Example font size */
+    cursor: pointer; /* Add cursor style for better user experience */
+}
+
+.navigation li:hover{
+    color:#7843e9;
+}
+/* Image styles */
+.image {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 60px; /* Example width */
+    height: 60px; /* Example height */
+    object-fit: cover; /* Maintain aspect ratio */
+    
+}
+
+/* Name styles */
+.name {
+    font-family: 'Concert One';
+    font-size: 1.3em; /* Example font size */
+    margin: 0;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 30px;
+    margin-top: 2em;
+    cursor: pointer;
 }
